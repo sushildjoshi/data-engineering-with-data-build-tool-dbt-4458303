@@ -1,3 +1,6 @@
+
+-- Every violation code should have a total fee amount
+-- greater than or equal to $1.
 {{ config(severity = 'warn') }}
 
 SELECT
